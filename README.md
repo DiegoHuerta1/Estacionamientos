@@ -7,6 +7,7 @@ Se tienen los estacionamientos del campus, con sus respectivas capacidades máxi
 
 ## Instucciones para ejecutar el programa
 
+
 Colocar una copia del contenido de este directorio en:
 
 C:\RMI\
@@ -37,11 +38,3 @@ Hacer la demostracion del semaforo:
 	java example.udlapnews.DemostrarSemaforo2
 	java example.udlapnews.DemostrarSemaforo3
 
-
-Para ejecutar una cafeteria: 
-
-	java -Djava.rmi.server.codebase=file:/RMI/ example.udlapnews.MakeCafeteria <Nombre> <Capacidad>
-
-Para ejecutar un cliente que entra a una cafeteria automaticamente:
-
-	java example.udlapnews.MakeClientCafeteria <Nombre> <ID>
